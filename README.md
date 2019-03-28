@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1. Clone
+2. Change origin: `git remote set-url origin git@github.com:USERNAME/REPOSITORY.git`
+3. change, commit, push :)
+
 ## Available Scripts
 
 In the project directory, you can run:
