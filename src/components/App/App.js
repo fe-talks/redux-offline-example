@@ -1,9 +1,15 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-import classNames from 'classnames';
+import { Provider } from 'react-redux';
 
-export function App(props) {
-  return <div className={classNames('app', props.className)}>App content</div>;
+import { store } from 'store';
+import { MainWrapper } from 'components/MainWrapper';
+
+export function App() {
+  return (
+    <Provider store={store}>
+      <MainWrapper />
+    </Provider>
+  );
 }
 
 App.defaultProps = {};
